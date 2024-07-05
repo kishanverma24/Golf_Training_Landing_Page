@@ -1,0 +1,49 @@
+#cursor {
+  height: 15px;
+  width: 15px;
+  background-color: #9dc52d;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+}
+
+#cursor-blur {
+  height: 200px;
+  width: 200px;
+  background-color: #7f954c;
+  border-radius: 50%;
+  position: fixed;
+  filter: blur(90px);
+}
+
+#nav {
+  height: 145px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 150px;
+  gap: 50px;
+  position: fixed;
+  justify-content: flex-start;
+  z-index: 99;
+}
+
+#nav img {
+  border-radius: 5px;
+  height: 75px;
+  cursor: pointer;
+}
+
+#nav h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  position: fixed;
+}

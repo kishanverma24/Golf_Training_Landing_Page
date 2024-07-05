@@ -1,5 +1,5 @@
 import React from "react";
-import "adventureRange.css";
+// import "./adventureRange.css";
 const AdventureRange = () => {
   return <div>AdventureRange</div>;
 };

@@ -12,7 +12,7 @@ body {
   width: 100vw;
 }
 
-#cursor {
+/* #cursor {
   height: 15px;
   width: 15px;
   background-color: #9dc52d;
@@ -60,13 +60,13 @@ video {
   object-fit: cover;
   z-index: -1;
   position: fixed;
-}
-
+} */
+/* 
 #main {
   position: relative;
   background-color: rgba(0, 0, 0, 0.37);
-}
-
+} */
+/* 
 #page1 {
   height: 100vh;
   width: 100%;
@@ -156,8 +156,8 @@ video {
   to {
     transform: translateX(-100%);
   }
-}
-
+} */
+/* 
 #aboutus {
   height: 40vh;
   width: 100%;
@@ -190,9 +190,9 @@ video {
 #call p {
   font-size: 20px;
   line-height: 25px;
-}
+} */
 
-#cards-container {
+/* #cards-container {
   height: 60vh;
   display: flex;
   align-items: center;
@@ -254,4 +254,4 @@ video {
 
 .cards:hover {
   transform: rotate3d(1, 1, -1, 5deg);
-}
+} */

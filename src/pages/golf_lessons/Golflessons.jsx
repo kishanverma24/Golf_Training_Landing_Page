@@ -1,5 +1,5 @@
 import React from "react";
-import "golflessons.css";
+// import "./golflessons.css";
 const Golflessons = () => {
   return <div>Golflessons</div>;
 };

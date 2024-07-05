@@ -1,0 +1,33 @@
+#aboutus {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    justify-content: space-around;
+  }
+  
+  #img11 {
+    height: 140px;
+    width: 140px;
+    border-radius: 20px;
+    object-fit: fill;
+  }
+  
+  #call {
+    width: 40%;
+    text-align: center;
+  }
+  
+  #call h3 {
+    font-size: 54px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+  
+  #call p {
+    font-size: 20px;
+    line-height: 25px;
+  }
