@@ -5,7 +5,7 @@ function Cards() {
 <div id="cards-container">
             <div className="cards" id="card1">
               <div className="overlay">
-                <h4>ToptRacer Range </h4>
+                <h4>Toptracer Range </h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
                   impedit voluptatum delectus mollitia asperiores corporis ab
