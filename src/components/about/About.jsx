@@ -3,7 +3,7 @@ import "./about.css";
 function About() {
   return (
     <div id="aboutus">
-      <img id="img11" src={"./golf course main.png"} />
+      <img id="img11" src={"./golf course main.jpg"} />
       <div id="call">
         <h3>ABOUT US</h3>
         <p>
