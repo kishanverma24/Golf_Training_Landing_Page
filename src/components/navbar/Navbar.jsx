@@ -17,7 +17,7 @@ function Navbar() {
     <>
       <div id="nav">
         <Link style={{ textDecoration: "none" }} to={"/"}>
-          <img src={"./LOGO.jpg"} alt="" />
+          <img src={"./home//LOGO.jpg"} alt="" />
         </Link>
         <h4>
           <Link style={{ textDecoration: "none" }} to={"/toptracer"}>
@@ -48,7 +48,7 @@ function Navbar() {
       <div id="cursor"></div>
       <div id="cursor-blur"></div>
       <video loop autoPlay muted={true}>
-        <source src={"../video main.mp4"} type="video/mp4" />
+        <source src={"/home/video.mp4"} type="video/mp4" />
       </video>
     </>
   );

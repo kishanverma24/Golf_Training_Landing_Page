@@ -1,64 +1,64 @@
 #cards-container {
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 70px;
-    position: relative;
-    z-index: 10;
-  }
-  
-  .cards {
-    height: 50%;
-    width: 24%;
-    border-radius: 20px;
-    background-size: cover;
-    background-position: center;
-    transition: all ease 0.6s;
-  }
-  
-  #card1 {
-    background-image: url(./toptracer\ main.webp);
-    object-fit: cover;
-  }
-  
-  #card2 {
-    background-image: url(./adventure\ img\ main.jpg);
-    object-fit: fill;
-  }
-  
-  #card3 {
-    background-image: url(./golf\ lesson\ img.webp);
-  }
-  
-  .overlay {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    background-color: #95c11e;
-    padding: 30px;
-    padding-top: 30px;
-    opacity: 0;
-    transition: all ease 0.6s;
-  }
-  
-  .overlay h4 {
-    color: black;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 800;
-  }
-  
-  .overlay p {
-    color: black;
-    font-size: 17px;
-  }
-  
-  .cards:hover .overlay {
-    opacity: 1;
-  }
-  
-  .cards:hover {
-    transform: rotate3d(1, 1, -1, 5deg);
-  }
-  
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  position: relative;
+  z-index: 10;
+}
+
+.cards {
+  height: 50%;
+  width: 24%;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  transition: all ease 0.6s;
+}
+
+#card1 {
+  /* background-image: url(./toptracer\ main.webp); */
+  object-fit: cover;
+}
+
+#card2 {
+  /* background-image: url(./adventure\ img\ main.jpg); */
+  object-fit: fill;
+}
+
+#card3 {
+  /* background-image: url(./golf\ lesson\ img.webp); */
+  object-fit: fill;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #95c11e;
+  padding: 30px;
+  padding-top: 30px;
+  opacity: 0;
+  transition: all ease 0.6s;
+}
+
+.overlay h4 {
+  color: black;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.overlay p {
+  color: black;
+  font-size: 17px;
+}
+
+.cards:hover .overlay {
+  opacity: 1;
+}
+
+.cards:hover {
+  transform: rotate3d(1, 1, -1, 5deg);
+}

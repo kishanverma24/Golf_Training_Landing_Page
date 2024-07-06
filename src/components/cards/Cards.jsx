@@ -3,7 +3,11 @@ import "./cards.css";
 function Cards() {
   return (
     <div id="cards-container">
-      <div className="cards" id="card1">
+      <div
+        className="cards"
+        id="card1"
+        style={{ backgroundImage: "url(./home/toptracer.webp)" }}
+      >
         <div className="overlay">
           <h4>Toptracer Range </h4>
           <p>
@@ -13,7 +17,11 @@ function Cards() {
           </p>
         </div>
       </div>
-      <div className="cards" id="card2">
+      <div
+        className="cards"
+        id="card2"
+        style={{ backgroundImage: "url(./home/adventure.jpg)" }}
+      >
         <div className="overlay">
           <h4>Adventure Golf</h4>
           <p>
@@ -23,7 +31,11 @@ function Cards() {
           </p>
         </div>
       </div>
-      <div className="cards" id="card3">
+      <div
+        className="cards"
+        id="card3"
+        style={{ backgroundImage: "url(./home/golflessons.webp)" }}
+      >
         <div className="overlay">
           <h4>Golf Lessons</h4>
           <p>
