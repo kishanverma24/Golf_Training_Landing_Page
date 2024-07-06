@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 function Navbar() {
   useEffect(() => {
@@ -15,12 +16,34 @@ function Navbar() {
   return (
     <>
       <div id="nav">
-        <img src={"./LOGO.jpg"} alt="" />
-        <h4>Toptracer Range</h4>
-        <h4>Golf Lessons</h4>
-        <h4>Adventure Golf</h4>
-        <h4>Coffee Shop</h4>
-        <h4>Leagues</h4>
+        <Link style={{ textDecoration: "none" }} to={"/"}>
+          <img src={"./LOGO.jpg"} alt="" />
+        </Link>
+        <h4>
+          <Link style={{ textDecoration: "none" }} to={"/toptracer"}>
+            Toptracer Range
+          </Link>
+        </h4>
+        <h4>
+          <Link style={{ textDecoration: "none" }} to={"/lessons"}>
+            Golf Lessons
+          </Link>
+        </h4>
+        <h4>
+          <Link style={{ textDecoration: "none" }} to={"/adventure"}>
+            Adventure Golf
+          </Link>
+        </h4>
+        <h4>
+          <Link style={{ textDecoration: "none" }} to={"/coffee"}>
+            Coffee Shop
+          </Link>
+        </h4>
+        <h4>
+          <Link style={{ textDecoration: "none" }} to={"/leagues"}>
+            Leagues
+          </Link>
+        </h4>
       </div>
       <div id="cursor"></div>
       <div id="cursor-blur"></div>
