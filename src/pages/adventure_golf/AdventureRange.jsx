@@ -111,6 +111,20 @@ const AdventureRange = () => {
             conditions. Equip yourself with insights that enhance performance
             and elevate your enjoyment of every adventurous round.
           </p>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "20px",
+            }}
+          >
+            <img
+              style={{ height: "200px" }}
+              src="/public/pages/adventuregolf.jpg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </>

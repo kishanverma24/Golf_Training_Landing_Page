@@ -12,8 +12,8 @@ const Golflessons = () => {
             width: "80vw",
             backgroundColor: "white",
             marginTop: "150px",
-            marginBottom:"50px"
-          }}    
+            marginBottom: "50px",
+          }}
         >
           <h1
             style={{ color: "black", marginTop: "10px", textAlign: "center" }}
@@ -57,6 +57,20 @@ const Golflessons = () => {
             our golf lessons today and embark on a path to mastery with
             dedicated guidance and support from our skilled instructors.
           </p>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "20px",
+            }}
+          >
+            <img
+              style={{ height: "200px" }}
+              src="/public/pages/golflessons.webp"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </>

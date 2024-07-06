@@ -77,6 +77,20 @@ const Leagues = () => {
             Leagues and immerse yourself in the joy of competitive play,
             community bonding, and the beauty of the game.
           </p>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "20px",
+            }}
+          >
+            <img
+              style={{ height: "200px" }}
+              src="/public/pages/leagues.jpg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </>

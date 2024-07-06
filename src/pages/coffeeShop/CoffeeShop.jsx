@@ -92,6 +92,20 @@ const CoffeeShop = () => {
             exploration guides, each item is a reminder of your coffee
             adventures at our café.
           </p>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "20px",
+            }}
+          >
+            <img
+              style={{ height: "200px" }}
+              src="/public/pages/coffee.jpg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </>

@@ -11,7 +11,7 @@ const Toptracerrange = () => {
             width: "80vw",
             backgroundColor: "white",
             marginTop: "150px",
-            marginBottom:"50px"
+            marginBottom: "50px",
           }}
         >
           <h1
@@ -84,6 +84,20 @@ const Toptracerrange = () => {
             expert coaching, Toptracer Range delivers a comprehensive solution
             that enhances every aspect of the golf practice session.
           </p>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "20px",
+            }}
+          >
+            <img
+              style={{ height: "200px" }}
+              src="/public/pages/toptracerrange.jpg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </>
