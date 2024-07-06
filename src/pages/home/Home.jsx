@@ -3,6 +3,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Hero from "../../components/hero/Hero";
 import About from "../../components/about/About.jsx";
 import Cards from "../../components/cards/Cards.jsx";
+import Footer from "../../components/footer/Footer.jsx";
 import "./home.css";
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
             <Cards />
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );

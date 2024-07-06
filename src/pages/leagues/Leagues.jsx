@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer.jsx";
 import "./leagues.css";
 
 const Leagues = () => {
@@ -93,6 +94,7 @@ const Leagues = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

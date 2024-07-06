@@ -7,9 +7,7 @@ function About() {
       <div id="call">
         <h3>ABOUT US</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos
-          unde culpa similique inventore, quia consequuntur illo est.
-          Voluptatem, ratione dignissimos.
+          Hello, player lets make some noise with classy game class in a mannered and authentic way.
         </p>
       </div>
       <img id="img11" src={"./golf man.jpg"} />

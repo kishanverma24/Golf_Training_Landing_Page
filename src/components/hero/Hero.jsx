@@ -6,8 +6,9 @@ function Hero() {
       <h1>EAT. DRINK. PLAY.</h1>
       <h2>WELCOME TO THE GROUND CHAMPIONS!</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
-        numquam illo fuga magnam! Ipsum, expedita!
+        Unleash your potential at Golf, where precision meets passion on every
+        fairway and swing into perfection where every
+        stroke becomes a masterpiece.
       </p>
       <div className="scroller">
         <div className="scroller-in">

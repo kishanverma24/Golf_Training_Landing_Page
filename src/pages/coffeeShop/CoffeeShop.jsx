@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/footer/Footer.jsx";
+
 import "./coffeeShop.css";
 
 const CoffeeShop = () => {
@@ -108,6 +110,7 @@ const CoffeeShop = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

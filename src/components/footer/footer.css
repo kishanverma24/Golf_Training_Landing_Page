@@ -1,0 +1,19 @@
+.footerContainer {
+  background-color: #161a1d;
+  width: 100vw;
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.pp {
+  font-weight: bolder;
+}
+@media (max-width: 400px) {
+  .pp {
+    font-size: 10px;
+    font-weight: bolder;
+
+  }
+}
