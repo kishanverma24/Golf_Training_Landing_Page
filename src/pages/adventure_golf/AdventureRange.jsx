@@ -123,7 +123,7 @@ const AdventureRange = () => {
           >
             <img
               style={{ height: "200px" }}
-              src="/public/pages/adventuregolf.jpg"
+              src="./pages/adventuregolf.jpg"
               alt=""
             />
           </div>

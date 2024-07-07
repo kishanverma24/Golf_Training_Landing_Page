@@ -104,7 +104,7 @@ const CoffeeShop = () => {
           >
             <img
               style={{ height: "200px" }}
-              src="/public/pages/coffee.jpg"
+              src="./pages/coffee.jpg"
               alt=""
             />
           </div>

@@ -88,7 +88,7 @@ const Leagues = () => {
           >
             <img
               style={{ height: "200px" }}
-              src="/public/pages/leagues.jpg"
+              src="./pages/leagues.jpg"
               alt=""
             />
           </div>

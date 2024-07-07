@@ -95,7 +95,7 @@ const Toptracerrange = () => {
           >
             <img
               style={{ height: "200px" }}
-              src="/public/pages/toptracerrange.jpg"
+              src= "./pages/toptracerrange.jpg"
               alt=""
             />
           </div>

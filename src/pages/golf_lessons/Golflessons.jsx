@@ -68,7 +68,7 @@ const Golflessons = () => {
           >
             <img
               style={{ height: "200px" }}
-              src="/public/pages/golflessons.webp"
+              src="./pages/golflessons.webp"
               alt=""
             />
           </div>
